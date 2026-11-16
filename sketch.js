@@ -22,7 +22,7 @@ var boundaryThickness = 10
 var testValue = 30;
 
 function setup() {    
-    createCanvas(900 + menuWidth, 900);
+    createCanvas(900 + menuWidth, windowHeight);
     debugColour = color(255,0,0)
     rectMode(CENTER)
 
